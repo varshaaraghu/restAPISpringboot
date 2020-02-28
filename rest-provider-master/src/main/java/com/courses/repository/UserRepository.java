@@ -6,4 +6,5 @@ import com.courses.model.User;
 
 public interface UserRepository extends CrudRepository<User,Long> {
 
+	public User getUserByUsername(String Username);
 }
